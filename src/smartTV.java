@@ -1,5 +1,6 @@
 public class smartTV {
 
+    // variables
     boolean statusTV;
     int channelSelected;
     int volumeSelected;
