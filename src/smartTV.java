@@ -4,29 +4,23 @@ public class smartTV {
     int channelSelected;
     int volumeSelected;
 
-    public smartTV() {
-        statusTV = false;
-        channelSelected = 0;
-        volumeSelected = 0;
-    }    
-
-    public void changeStatusTV(boolean statusTV) {
+    public void changeStatusTV() {
         statusTV = !statusTV;
     }
     
-    public void upVolume(int volumeSelected){
+    public void increaseVolume(int volumeSelected){
         volumeSelected ++;
     }
 
-    public void downVolume(int volumeSelected){
+    public void decreaseVolume(int volumeSelected){
         volumeSelected --;
     }
     
-    public void upChannel(int channelSelected){
+    public void increaseChannel(int channelSelected){
         channelSelected ++;
     }
     
-    public void downChannel(int channelSelected){
+    public void decreaseChannel(int channelSelected){
         channelSelected --;
     }
     
